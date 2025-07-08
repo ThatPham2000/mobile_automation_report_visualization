@@ -1,13 +1,13 @@
 {"protocolVersion":"0.1.1","runnerVersion":null,"pid":97266,"type":"start","time":0}
-{"suite":{"id":0,"platform":"vm","path":"/Users/that.phamvan/elca/tixngo/tixngo-integrations/branded_app/tixngo_show/integration_test_v4/test_case/app_test.dart"},"type":"suite","time":0}
-{"test":{"id":1,"name":"loading /Users/that.phamvan/elca/tixngo/tixngo-integrations/branded_app/tixngo_show/integration_test_v4/test_case/app_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/Users/that.phamvan/app/example/integration_test/test_case/app_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /Users/that.phamvan/app/example/integration_test/test_case/app_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":0}
 {"count":1,"time":2,"type":"allSuites"}
 {"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":75034}
 {"group":{"id":2,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":null,"column":null,"url":null},"type":"group","time":75035}
-{"group":{"id":3,"suiteID":0,"parentID":2,"name":"Mobile automated Integration Testing (new UI)","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":84,"column":3,"url":"file:///Users/that.phamvan/elca/tixngo/tixngo-integrations/branded_app/tixngo_show/Users/that.phamvan/elca/tixngo/tixngo-integrations/branded_app/tixngo_show/integration_test_v4/test_case/app_test.dart"},"type":"group","time":75036}
-{"test":{"id":4,"name":"Mobile automated Integration Testing (new UI) (setUpAll)","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":85,"column":5,"url":"file:///Users/that.phamvan/elca/tixngo/tixngo-integrations/branded_app/tixngo_show/Users/that.phamvan/elca/tixngo/tixngo-integrations/branded_app/tixngo_show/integration_test_v4/test_case/app_test.dart"},"type":"testStart","time":75036}
+{"group":{"id":3,"suiteID":0,"parentID":2,"name":"Mobile automated Integration Testing (new UI)","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":84,"column":3,"url":"file:///Users/that.phamvan/app/example/Users/that.phamvan/app/example/integration_test/test_case/app_test.dart"},"type":"group","time":75036}
+{"test":{"id":4,"name":"Mobile automated Integration Testing (new UI) (setUpAll)","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":85,"column":5,"url":"file:///Users/that.phamvan/app/example/Users/that.phamvan/app/example/integration_test/test_case/app_test.dart"},"type":"testStart","time":75036}
 {"testID":4,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":83562}
-{"group":{"id":5,"suiteID":0,"parentID":3,"name":"Mobile automated Integration Testing (new UI) TEST => SIGN OUT","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":16,"column":3,"url":"file:///Users/that.phamvan/elca/tixngo/tixngo-integrations/branded_app/tixngo_show/Users/that.phamvan/elca/tixngo/tixngo-integrations/branded_app/tixngo_show/integration_test_v4/test_case/sign_out/sign_out_test.dart"},"type":"group","time":83562}
+{"group":{"id":5,"suiteID":0,"parentID":3,"name":"Mobile automated Integration Testing (new UI) TEST => SIGN OUT","metadata":{"skip":false,"skipReason":null},"testCount":3,"line":16,"column":3,"url":"file:///Users/that.phamvan/app/example/Users/that.phamvan/app/example/integration_test/test_case/sign_out/sign_out_test.dart"},"type":"group","time":83562}
 {"test":{"id":6,"name":"Mobile automated Integration Testing (new UI) TEST => SIGN OUT [c32ad56d-6d9a-4652-8ca9-553f4bdd3338]: TEST => (1) Sign out without ticket - home button","suiteID":0,"groupIDs":[2,3,5],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart"},"type":"testStart","time":83563}
 {"testID":6,"messageType":"print","message":"--------- ","type":"print","time":88811}
 {"testID":6,"messageType":"print","message":" Receive event = {bluetooth: -2} ","type":"print","time":88813}
@@ -234,18 +234,18 @@
 {"testID":6,"messageType":"print","message":"════════════════════════════════════════════════════════════════════════════════════════════════════","type":"print","time":149541}
 {"testID":6,"error":"Test failed. See exception logs above.\nThe test description was: [c32ad56d-6d9a-4652-8ca9-553f4bdd3338]: TEST => (1) Sign out without ticket - home button","stackTrace":"","isFailure":false,"type":"error","time":149550}
 {"testID":6,"messageType":"print","message":"Object box Store is close: true","type":"print","time":149551}
-{"testID":6,"messageType":"print","message":"tixngoTearDown: success","type":"print","time":149551}
+{"testID":6,"messageType":"print","message":"appTearDown: success","type":"print","time":149551}
 {"testID":6,"result":"error","skipped":false,"hidden":false,"type":"testDone","time":149554}
 {"test":{"id":7,"name":"Mobile automated Integration Testing (new UI) TEST => SIGN OUT [79cbcd62-20bb-4d94-bbc9-3194be67dbfd]: TEST => (2) Sign out without ticket - burger button","suiteID":0,"groupIDs":[2,3,5],"metadata":{"skip":true,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart"},"type":"testStart","time":149559}
 {"testID":7,"result":"success","skipped":true,"hidden":false,"type":"testDone","time":149561}
 {"test":{"id":8,"name":"Mobile automated Integration Testing (new UI) TEST => SIGN OUT [ca7dc3bf-00ba-4516-8664-0c40f163d240]: TEST => (3) Sign out with ticket","suiteID":0,"groupIDs":[2,3,5],"metadata":{"skip":false,"skipReason":null},"line":171,"column":5,"url":"package:flutter_test/src/widget_tester.dart"},"type":"testStart","time":149562}
-{"testID":8,"messageType":"print","message":"V4 DB Deleted => notExist","type":"print","time":153124}
-{"testID":8,"messageType":"print","message":"V4 DB Deleted => notExist","type":"print","time":153854}
-{"testID":8,"messageType":"print","message":"V4 DB Deleted => notExist","type":"print","time":153854}
+{"testID":8,"messageType":"print","message":"DB Deleted => notExist","type":"print","time":153124}
+{"testID":8,"messageType":"print","message":"DB Deleted => notExist","type":"print","time":153854}
+{"testID":8,"messageType":"print","message":"DB Deleted => notExist","type":"print","time":153854}
 {"testID":8,"messageType":"print","message":"AuthInterceptor => onError => 422 => /v3/spectator/profile - isRetry: false","type":"print","time":179081}
 {"testID":8,"messageType":"print","message":"run activate => true","type":"print","time":209827}
 {"testID":8,"messageType":"print","message":"Object box Store is close: true","type":"print","time":219742}
-{"testID":8,"messageType":"print","message":"tixngoTearDown: success","type":"print","time":219742}
+{"testID":8,"messageType":"print","message":"appTearDown: success","type":"print","time":219742}
 {"testID":8,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":219743}
 {"test":{"id":9,"name":"Mobile automated Integration Testing (new UI) (tearDownAll)","suiteID":0,"groupIDs":[2,3],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":219746}
 {"testID":9,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":219750}
