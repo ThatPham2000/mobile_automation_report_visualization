@@ -271,7 +271,7 @@ def generate_html_report(suites, test_results, total_duration_ms, pie_chart_b64,
     </html>
     """
 
-    with open("report.html", "w", encoding="utf-8") as f:
+    with open("examples/report.html", "w", encoding="utf-8") as f:
         f.write(html_content)
 
 
@@ -279,7 +279,7 @@ def main():
     """Main function to generate the report."""
     try:
         data = []
-        with open('report.jsonl', 'r') as jsonl_file:
+        with open('examples/report.jsonl', 'r') as jsonl_file:
             for line in jsonl_file:
                 data.append(json.loads(line))
     except json.JSONDecodeError as e:
